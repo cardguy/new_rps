@@ -12819,3 +12819,123 @@ Served asset /jquery.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-06 12:06:04 -0600
 Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/rpses/1?hand_one=rock&hand_two=rock&submit=Play%21" for 127.0.0.1 at 2012-07-06 14:05:49 -0600
+Connecting to database specified by database.yml
+Processing by RpsesController#show as HTML
+  Parameters: {"hand_one"=>"rock", "hand_two"=>"rock", "submit"=>"Play!", "id"=>"1"}
+  Rendered rpses/_form.html.erb (0.4ms)
+  Rendered rpses/show.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 50ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-06 14:05:49 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-06 14:05:49 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-06 14:05:49 -0600
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-06 14:05:49 -0600
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/rpses/1?hand_one=paper&hand_two=scissors&submit=Play%21" for 127.0.0.1 at 2012-07-06 14:06:01 -0600
+Processing by RpsesController#show as HTML
+  Parameters: {"hand_one"=>"paper", "hand_two"=>"scissors", "submit"=>"Play!", "id"=>"1"}
+  Rendered rpses/_form.html.erb (0.0ms)
+  Rendered rpses/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 48ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-06 14:06:01 -0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-06 14:06:01 -0600
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-06 14:06:01 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-06 14:06:01 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/rpses/1?hand_one=paper&hand_two=scissors&submit=Play%21" for 127.0.0.1 at 2012-07-06 14:06:26 -0600
+Processing by RpsesController#show as HTML
+  Parameters: {"hand_one"=>"paper", "hand_two"=>"scissors", "submit"=>"Play!", "id"=>"1"}
+  Rendered rpses/_form.html.erb (0.0ms)
+  Rendered rpses/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-06 14:06:26 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-06 14:06:26 -0600
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-06 14:06:26 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-06 14:06:26 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-06 14:06:39 -0600
+Processing by RpsesController#index as HTML
+  Rendered rpses/_form.html.erb (0.0ms)
+  Rendered rpses/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-06 14:06:39 -0600
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-06 14:06:39 -0600
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-06 14:06:39 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-06 14:06:39 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/rpses/1?hand_one=scissors&hand_two=rock&submit=Play%21" for 127.0.0.1 at 2012-07-06 14:06:45 -0600
+Processing by RpsesController#show as HTML
+  Parameters: {"hand_one"=>"scissors", "hand_two"=>"rock", "submit"=>"Play!", "id"=>"1"}
+  Rendered rpses/_form.html.erb (0.1ms)
+  Rendered rpses/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-06 14:06:45 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-06 14:06:45 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-06 14:06:45 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-06 14:06:45 -0600
+Served asset /application.js - 304 Not Modified (1ms)

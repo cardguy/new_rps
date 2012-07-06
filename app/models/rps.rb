@@ -19,11 +19,11 @@ class Rps
     # hand_two = @hand_two
 
     if hand_one == hand_two
-      "tie"
+      "#{hand_one} vs #{hand_two}: tie"
     elsif WINS[hand_one] == hand_two
-      "hand_one wins with #{hand_one}"
+      "#{hand_one} vs #{hand_two}: #{hand_one} wins"
     else
-      "hand_two wins with #{hand_two}"
+      "#{hand_one} vs #{hand_two}: #{hand_two} wins"
     end
   end
 end
