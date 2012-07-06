@@ -1,4 +1,4 @@
-require("new_rps.rb")
+# require("new_rps.rb")
 
 
 class RpsesController < ApplicationController
@@ -7,7 +7,7 @@ class RpsesController < ApplicationController
   end
 
   def show
-    game = RPS.new
+    game = Rps.new
     # game.hand_one = params[:hand_one]
     # game.hand_two = params[:hand_two]
     @r = game.play(params[:hand_one], params[:hand_two])
